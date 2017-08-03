@@ -1,14 +1,17 @@
+#Import modules
 import csv
 import json
 import codecs
 import simplejson
 import urllib
 
+#Location points, can be extracted from center of grids, or create them manually
 poi = [(-6.20521,106.82718),
        (-6.2142,106.78221),
         (-6.35809,106.8002),
         (-6.35809,106.80919)]
 
+#Type of POI you want to extract
 types = ['airport','amusement_park','health','local_government_office','park','pharmacy','physiotherapist','place_of_worship','post_office']
 
 for i,j in poi:
